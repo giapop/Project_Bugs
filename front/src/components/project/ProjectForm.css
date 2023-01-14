@@ -1,0 +1,20 @@
+.project-form {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.project-form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.add-project-btn {
+    border: none;
+    padding: 10px;
+    background-color: #3db3da;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  background-image: url("./ranger-4df6c1b6.png")
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.bugs_collection{
+  background-color: hsl(31, 95%, 68%);
+  width: 100%;
+}
+.project_collection{
+  background-color: #69fb61;
+  width: 300px;
+}
+.user_collection{
+  background-color: #8261fb;
+  width: 300px;
+}
+.forms{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
